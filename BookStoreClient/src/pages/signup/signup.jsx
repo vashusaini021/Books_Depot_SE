@@ -103,7 +103,7 @@ export const SignUp = () => {
             <label className="checkbox-primary"> I accept the Terms of Use & Privacy Policy </label>
           </div>
 
-          <input value="Submit" className="w-100 btn btn-lg btn-primary bg-dark" type="submit" />
+          <input value="Submit" className="w-100 btn btn-lg btn-danger" type="submit" />
         </form>
 
         <div id="statusMessage" style={{ color: 'red' }}>{message}</div>
