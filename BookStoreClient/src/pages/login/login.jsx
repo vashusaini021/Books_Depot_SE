@@ -79,7 +79,7 @@ export const Login = () => {
           </div>
 
           <input
-            className="w-100 btn btn-lg btn-primary bg-dark"
+            className="w-100 btn btn-lg btn-danger"
             type="button"
             value="Sign in"
             onClick={loginClick}
